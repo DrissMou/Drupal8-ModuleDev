@@ -1,0 +1,17 @@
+rsvplist.form:
+  path: '/rsvplist'
+  defaults:
+    _form: '\Drupal\rsvplist\Form\RSVPForm'
+    _title: 'RSVP to this Event'
+  requirements:
+    _permission: 'view rsvplist'
+#    _permission: 'access content'
+rsvplist.admin_setting:
+  path: '/admin/content/config/rsvplist'
+  defaults:
+    _form: '/Drupal/rsvplist/Form/RSVPSettingForm'
+    _title: 'RSVP List Setting'
+  requirements:
+    _permission: 'administer rsvplist'
+
+

@@ -1,0 +1,7 @@
+name: testosbah
+description: test news osbah
+package: test Osbah
+type: module
+version: 1.0
+core: 8.x
+configure: testosbah.admin_settings

@@ -1,0 +1,6 @@
+name: mydata
+description: test mydata osbah
+package: test mydata
+type: module
+version: 1.0
+core: 8.x
