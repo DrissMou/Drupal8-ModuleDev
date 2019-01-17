@@ -1,6 +1,17 @@
-#rsvplist.admin_settings:
-#  title: 'RSVP List Settings'
-#  description: 'Control display of RSVP form'
-#  route_name: rsvplist.admin_settings
-#  parent: system.admin_config_content
-#  weight: 10
+# pick up the routing from "rsvplist.routing.yml" file.
+rsvplist.admin_settings:
+  # add a menu item to the administration menu
+  title: 'RSVP List Settings'
+  description: 'Control the display of RSVP form'
+  route_name: rsvplist.admin_settings
+  # place the configuration settings in the admin config content area.
+  parent: system.admin_config_content
+  # place the menu at the far right.
+  weight: 10
+rsvplist.report:
+  title: 'list of RSVP list submition'
+  description: 'View listing of RSVPs'
+  route_name: rsvplist.report
+  parent: system.admin_reports
+  weight: 0
+

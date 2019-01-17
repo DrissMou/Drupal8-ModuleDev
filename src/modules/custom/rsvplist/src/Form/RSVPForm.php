@@ -83,6 +83,4 @@ class RSVPForm extends FormBase
       ->execute();
     drupal_set_message(t('thanks for your RSVP , you r in the list'));
   }
-
-
 }
